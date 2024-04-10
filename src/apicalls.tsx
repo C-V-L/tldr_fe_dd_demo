@@ -23,7 +23,8 @@ const processTOS = async (tos: string, concerns: string[], user: number | null):
     //"https://4f00-71-33-146-168.ngrok-free.app/api/v1/queries",
     //"tldr-tos.herokuapp.com/api/v1/queries",
     //"https://ec2-3-18-245-190.us-east-2.compute.amazonaws.com/api/v1/queries",
-    "http://52.15.48.71/api/v1/queries",
+    "http://3.15.201.245/api/v1/queries",
+    // "http://localhost:8000/api/v1/queries",
     details
   );
 
@@ -49,7 +50,7 @@ export const processTOSPDF = async (file: File, concerns: string[], user: number
   };
   
   const response = await fetch(
-    "http://52.15.48.71/api/v1/queries",
+    "http://3.15.201.245/api/v1/queries",
     details
   );
 
