@@ -17,10 +17,10 @@ const Process = ({tosInput, setTosInput, setConcerns, setError, user}: Props) =>
   const [loading, setLoading] = useState(false);
   const [concernAreas, setConcernAreas] = useState<{ [key: string]: boolean }>({
     Privacy: false,
+    "Data Sharing": false,
     Security: false,
     Copyright: false,
     Liability: false,
-    Cancellation: false,
     Payment: false
   });
 

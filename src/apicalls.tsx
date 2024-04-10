@@ -24,6 +24,8 @@ const processTOS = async (tos: string, concerns: string[], user: number | null):
     //"tldr-tos.herokuapp.com/api/v1/queries",
     //"https://ec2-3-18-245-190.us-east-2.compute.amazonaws.com/api/v1/queries",
     "http://3.15.201.245/api/v1/queries",
+    // "http://localhost:8000/api/v1/queries",
+
     details
   );
 
